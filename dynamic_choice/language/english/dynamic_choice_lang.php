@@ -1,0 +1,22 @@
+<?php defined('BASEPATH') or exit('No direct script access allowed');
+
+$lang['streams.dynamic_choice.name'] 				= 'Dynamic Choices';
+$lang['streams.dynamic_choice.instructions'] 		= "Put each choice on one line. If you want a separate value for each choice, you can separate them by a colon (:).<pre>PyroCMS\npyro : PyroCMS</pre>";
+$lang['streams.dynamic_choice.dynamic_choice_data'] 		= 'Choice Data';
+$lang['streams.dynamic_choice.dynamic_choice_type'] 		= 'Choice Type';
+$lang['streams.dynamic_choice.dropdown'] 			= 'Dropdown';
+$lang['streams.dynamic_choice.radio_buttons'] 		= 'Radio Buttons';
+$lang['streams.dynamic_choice.checkboxes'] 			= 'Checkboxes';
+$lang['streams.dynamic_choice.module'] 		= 'Module';
+$lang['streams.dynamic_choice.module_instructions'] 		= 'Module Name (e.g blog) ';
+$lang['streams.dynamic_choice.choice_type'] 		= 'Module Model';
+$lang['streams.dynamic_choice.module_model_instructions'] 		= 'Module Model (e.g. blog_m)';
+$lang['streams.dynamic_choice.choice_data'] 		= 'Module Field';
+$lang['streams.dynamic_choice.module_field_instructions'] 		= 'Numeric (Options Value)  Field in DB (e.g id)';
+$lang['streams.dynamic_choice.min_choices'] 		= 'Module Field Label';
+$lang['streams.dynamic_choice.module_field_label_instructions'] 		= 'Text (Options Label) Field in Database (e.g title)';
+$lang['streams.dynamic_choice.max_choices'] 		= 'Maximum Number of Selections';
+$lang['streams.dynamic_choice.checkboxes_only'] 	= 'Only available for checkboxes.';
+$lang['streams.dynamic_choice.must_select_num'] 	= 'You must select {val} items from the %s list.';
+$lang['streams.dynamic_choice.must_at_least'] 		= 'You must select at least {val} items from the %s list.';
+$lang['streams.dynamic_choice.must_max_num'] 		= 'You can only select {val} items from the %s list.';
